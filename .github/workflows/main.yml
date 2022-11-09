@@ -24,7 +24,7 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
           username: server95
-          server: hosting.reg.ru:1500
+          server: hosting.reg.ru
           port: 22 # default is 22
           ssh_private_key: ${{ secrets.key }}
  
@@ -32,7 +32,7 @@ jobs:
           # will put all file under this path
           local_path: ./* # default is ./*
           # files will copy to under remote_path
-          remote_path: /var/www/u1827916/data/www/servermonitoring.ru
+          remote_path: /www/servermonitoring.ru
           
           # sftp args
           args: '-o ConnectTimeout=5'
