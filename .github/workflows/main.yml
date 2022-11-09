@@ -23,7 +23,7 @@ jobs:
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
-          username: server95
+          username: u1827916
           server: server95.hosting.reg.ru
           port: 22 # default is 22
           ssh_private_key: ${{ secrets.key }}
