@@ -25,7 +25,7 @@ jobs:
         with:
           username: server95
           server: hosting.reg.ru
-          port: 22 # default is 22
+          port: 20022 # default is 22
           ssh_private_key: ${{ secrets.key }}
  
           
