@@ -57,7 +57,7 @@ color: #fff;
     column-gap: 30px;
 }
 form .name{
-    grid-area: name1;
+    grid-area: name;
 }
 form .description{
     grid-area:  description;
@@ -90,7 +90,7 @@ form .button-add input:hover,form .button-clear input:hover {
     color: #fff;
 }
 .main-footer{
-    background-color: #C9C9C9;
+    background-color: #C9C9A3;
     padding: 5px;
 }
 
